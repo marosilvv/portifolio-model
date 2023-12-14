@@ -6,4 +6,4 @@ Esse projeto foi feito como uma atividade da PDA a fim de construir um portifoli
 *A responsividade pode não estar compativel em alguns dispositivos
 <br />
 Com a PDA sei que conseguirei fazer sites grandiosos!!
-![Uploading image.png…]()
+
