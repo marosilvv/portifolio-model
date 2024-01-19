@@ -1,46 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,900&display=swap');
-
 @media screen and (max-width: 900px) {
-  .caixa1, .caixa2 {
+
+  .caixa1,
+  .caixa2 {
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
   }
+
+}
+*{background: #121214;
+ 
 }
 
 h1 {
   font-family: "Roboto";
+  margin-bottom: 10px;
 }
 
 h3 {
   font-family: "Roboto";
 }
+
 p {
   font-family: "Roboto";
+  margin-top: 5px;
 }
 
+ul {
+  font-family: "Roboto";
+  margin-top: 5px;
+}
 
-
-
-.caixa1, .caixa2 {
+.caixa1,
+.caixa2 {
   transition: 3s;
   transition: all 0.5s ease-in-out;
   display: flex;
- flex-wrap: wrap;
- flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
+
 .container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    transition: transform 0.7s;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  transition: transform 0.7s;
 }
-.cabecalho img{
+
+.cabecalho img {
   width: 2rem;
-
-
 }
 
 .ilustcaixa {
@@ -52,51 +63,57 @@ p {
   border-radius: 20px;
 }
 
-.cabecalho ul{ transform: scale(1.2);
+.cabecalho ul {
+  transform: scale(1.2);
   list-style: none;
-margin: auto;
-display: flex;
+  margin: auto;
+  display: flex;
   flex-direction: start;
-  justify-content:space-between;
+  justify-content: space-between;
   font-size: 14px;
   gap: 32px;
   object-fit: cover;
-  margin: 5% 2%; 
-  
+  margin: 5% 2%;
 }
 
 div {
+  height: 50%;
+  width: 50%;
 
-    height:50%;
-    width: 50%;
 }
+
 .caixa1 {
-    display: flex;
+  display: flex;
   flex-direction: column;
-    background-color: #121214;
-    color: aliceblue;
-    text-align: center;
+  background-color: #121214;
+  color: aliceblue;
+  text-align: center;
 }
 
-.content{
-justify-content: center;
+.content {
+  font-size: 18px;
+  align-items: center;
   width: 90%;
   text-align: justify;
   flex-direction: column;
   display: flex;
-  margin-left: 5% ; 
+  margin-left: 5%;
+}
+.lista ul, li{
+font-size: 20px;
 }
 
 .caixa2 {
   display: flex;
   flex-direction: column;
-    background-color: #000;
-    color: aliceblue;
-    text-align: center;
+  background-color: #000;
+  color: aliceblue;
+  text-align: center;
 }
-.caixa2 img{
+
+.caixa2 img {
   width: 100%;
- align-items: center;
- justify-content: center;
- display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
